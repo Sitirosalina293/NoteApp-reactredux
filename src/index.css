@@ -1,0 +1,66 @@
+.container{
+    max-width: 64rem; 
+}
+.btnAdd{
+    border: none;
+    background-color: rgb(5, 11, 92);
+    color : orange;
+    border-radius: 10px;
+}
+.header{
+    background-color: rgb(5, 11, 92);
+    color : orange;
+}
+.btnIcon{
+    background-color: transparent;
+    border: none;
+}
+
+Form{
+    width: 50%;
+    margin : 30px auto;
+}
+
+.cardParents{
+    padding: 1.25rem; 
+    background-color: #a1cbff; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-radius: 20px;
+}
+.nameNote{
+    color: #120679; 
+    font-size: 1.125rem;
+}
+p{
+    color: #423a6b;
+}
+.note{
+    white-space: pre-wrap;
+}
+svg{
+    color: #120679;
+    width: 1.5rem; 
+    height: 1.5rem;
+    background-color: transparent;  
+}
+button{
+    border:none!important;
+    background-color: transparent;
+}
+.griding{
+    display: grid; 
+    grid-gap: 20px; 
+    grid-template-columns : auto auto;
+    grid-template-rows: auto;
+}
+.gridItems{
+    text-align: center; 
+    color: #374151; 
+    font-weight: 600;
+    grid-column: span 2 / span 2;
+}
+
+.textarea{
+    white-space: pre-wrap;
+}
